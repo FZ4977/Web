@@ -1,0 +1,243 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			li {
+				list-style: none;
+				float: left;
+			}
+			
+			.top {
+				font-size: 12px;
+				width: 100%;
+				height: 35px;
+				background: #f7f7f7;
+				border-bottom: 1px solid #d3d3d3;
+			}
+			
+			a {
+				text-decoration: none;
+				color: #747474;
+			}
+			
+			.top ul:first-child {
+				margin-left: 220px;
+			}
+			
+			.top ul:first-child a {
+				color: #CC0000;
+			}
+			
+			.top {
+				line-height: 35px;
+			}
+			
+			.top ul:last-child {
+				float: right;
+				margin-right: 200px;
+			}
+			
+			.top ul:last-child span {
+				color: #ece9e9;
+				margin: 0 12px;
+			}
+			#header{
+				width: 1200px;
+				height: 110px;
+				margin: auto;
+			}
+			#header2{
+				float: left;
+				font-size: 24px;
+				line-height: 100px;
+			}
+			.tab{
+				width: 980px;
+			    margin: 10px auto;
+			    height: auto;
+			    overflow: hidden;
+			}
+			.title{
+				clear: both;
+			    height: 45px;
+			    line-height: 45px;
+			    overflow: hidden;
+			    background: #fafafa;
+			}
+			.title ul{
+				width: 300px;
+			    margin: 0;
+			    padding: 3px 0px 0px 0px;
+			    overflow: hidden;
+			}
+			.title li{
+				float: left;
+			    width: 140px;
+			    height: 35px;
+			    line-height: 35px;
+			}
+			.active{
+				background-color: #FFF;
+			    border: 1px solid #e8e8e8;
+			    border-top: 2px solid #2daae4;
+			    text-align: center;
+			    font-size: 14px;
+			    font-weight: bold;
+			    color: #2daae4;
+			    cursor: pointer;
+			}
+			.normal{
+				font-size: 14px;
+			    text-align: center;
+			    font-weight: bold;
+			    cursor: pointer;
+			}
+			.content{
+				min-height: 500px;
+			    overflow: hidden;
+			    text-align: left;
+			    background: #fff;
+			    margin: 0px auto;
+			    padding: 20px;
+			    margin-top: -1px;
+			    border: 1px #e8e8e8 solid;
+			    font-size: 12px;
+			}
+			.register{
+				width: 750px;
+			    min-height: 200px;
+			    float: left;
+			    margin: 30px 10px;
+			}
+			.register ul{
+				padding: 0;
+				margin: auto;
+			}
+			.register li{
+				margin: 0;
+			    padding-top: 9px;
+			    height: 60px;
+			    line-height: 34px;
+			}
+			.font{
+				width: 170px;
+			    height: 35px;
+			    line-height: 35px;
+			    text-align: right;
+			    float: left;
+			    padding-right: 10px;
+			}
+			.input{
+				width: 270px;
+			    color: #474747;
+			    height: 35px;
+			    line-height: 35px;
+			    padding-left: 15px;
+			    border: 1px solid #e8e8e8;
+			    background: #fff;
+			    border-radius: 2px;
+			    vertical-align: middle;
+			    outline: none;
+			    float: left;
+			}
+			.input1{
+				width: 270px;
+			    color: #474747;
+			    height: 35px;
+			    line-height: 35px;
+			    padding-left: 15px;
+			    border: 1px solid #e8e8e8;
+			    background: #fff;
+			    border-radius: 2px;
+			    vertical-align: middle;
+			    outline: none;
+			    width: 130px;
+			    float: left;
+			}
+			.but{
+				padding: 0px 15px;
+			    background: #efefef;
+			    color: #828282;
+			    border-radius:3px;
+			    height: 35px;
+    			line-height: 35px;
+    			margin-left: 10px;
+    			cursor: pointer;
+    			border: none;
+    			float: left;
+			}
+			.but:hover{
+				background: #d3d3d3;
+    			color: #fff;
+			}
+			.but2{
+				width: 260px;
+				margin-left: 180px;
+				height: 40px;
+				line-height: 40px;
+				background-color: #CC0000;
+				padding: 0 25px;
+				color: #fff;
+				border: none;
+				cursor: pointer;
+			}
+			.but2:hover{
+				background: #fd9d34;
+			}
+			#bg0{
+				background: url(../img/bg_0.jpg) no-repeat right;
+			}
+			#bg1{
+				background: url(../img/bg_1.jpg) no-repeat right;
+			}
+			#bg2{
+				background: url(../img/bg_2.jpg) no-repeat right;
+			}
+			
+			#foot{
+				clear: both;
+				width: 100%;
+				margin-top:20px ;
+			}
+			#foot ul{
+				width: 960px;
+				min-height: 150px;
+				border-top:1px solid #e2e2e2;
+				padding: 0 90px 0 150px;
+				margin: auto;
+			}
+			#foot li{
+				width: 135px;
+				float: left;
+				line-height: 26px;
+			}
+			#foot dt{
+				height: 35px;
+			    line-height: 35px;
+			    font-family: Microsoft Yahei, Arial;
+			    font-size: 14px;
+			    font-weight: bold;
+			}
+			#foot dd{
+				font-size: 12px;
+			}
+			.mobile_prompt{
+				margin-top: 20px;
+				margin-left: 10px;
+				font-size: 12px;
+				float: left;
+				color: red;
+			}
+			.pwd_prompt{
+				margin-left: 10px;
+				font-size: 12px;
+				float: left;
+				color: red;
+			}
+			.yanzheng{
+				margin-left: 10px;
+				font-size: 12px;
+				float: left;
+				color: red;
+			}

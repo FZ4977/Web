@@ -1,0 +1,245 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			li {
+				list-style: none;
+				float: left;
+			}
+			
+			.top {
+				font-size: 12px;
+				width: 100%;
+				height: 35px;
+				background: #f7f7f7;
+				border-bottom: 1px solid #d3d3d3;
+			}
+			
+			a {
+				text-decoration: none;
+				color: #747474;
+			}
+			a:hover{
+				color: #CC0000;
+			}
+			.top ul:first-child {
+				margin-left: 220px;
+			}
+			
+			.top ul:first-child a {
+				color: #CC0000;
+			}
+			
+			.top {
+				line-height: 35px;
+			}
+			
+			.top ul:last-child {
+				float: right;
+				margin-right: 200px;
+			}
+			
+			.top ul:last-child span {
+				color: #ece9e9;
+				margin: 0 12px;
+			}
+			#header{
+				width: 1200px;
+				height: 110px;
+				margin: auto;
+			}
+			.w{
+				width: 1200px;
+				margin: auto;
+			}
+			.shop{
+				float: left;
+			    width: 100%;
+			    margin-top: 10px;
+			    margin-bottom: 5px !important;
+			}
+			.shop h1{
+				float: left;
+			    font-size: 18px;
+			    text-align: left;
+			    height: 25px;
+			    line-height: 25px;
+			}
+			.shop h1 span{
+				float: left;
+			    width: 34px;
+			    height: 30px;
+			    display: block;
+			    margin-right: 5px;
+			    background: url(../img/QQ浏览器截图20190712082207.png) 0px 0px;
+			}
+			.main{
+				width: 100%;
+			}
+			.list-top{
+				clear: both;
+				width: 100%;
+				height: 40px;
+				line-height: 40px;
+				background-color: #CC0000;
+				color: white;
+			}
+			.list-top li:first-child{
+				text-indent:21px;
+				width: 500px;
+				text-align: left;
+			}
+			.list-top ul li {
+			    float: left;
+			    text-align: center;
+			    color: #fff;
+			    font-size: 14px;
+			    font-weight: bold;
+			    cursor: pointer;
+			}
+			.mian1{
+				float: left;
+				width: 1200px;
+				margin: 10px auto;
+				border: 1px solid #E8E8E8;
+				font-size: 12px;
+			}
+			.mian1 h4{
+				text-align: left;
+			    height: 24px;
+			    line-height: 24px;
+			    float: left;
+			    font-size: 12px;
+			    margin-top: 10px;
+			    margin-left: 20px;
+			    margin-bottom: 10px;
+			}
+			.context{
+				clear: both;
+				width: 1190px;
+				margin: auto;
+				padding: 0 0 10px;
+			}
+			.mian11{
+				width: 1158px;
+			    margin: 0 auto;
+			    min-height: 110px;
+			    border-top: 1px solid #e8e8e8;
+			}
+			input{
+				vertical-align: middle;
+			}
+			.mian11 ul{
+				padding-top: 20px;
+			}
+			.main11 li{
+				float: left;
+			}
+			.img{
+				width: 64px;
+			    height: 64px;
+			    border: 1px solid #fff;
+			}
+			.but1,.but2{
+				    border: 1px solid #ece9e9;
+			    height: 28px;
+			    line-height: 28px;
+			    width: 28px;
+			    text-align: center;
+			    color: #666;
+			    margin: 0;
+			    padding: 0 2px;
+			    background: #fff;
+			    outline: none;
+			    float: left;
+			}
+			.inp0,.inp1{
+				    border: 1px solid #ece9e9;
+				    height: 26px;
+				    line-height: 26px;
+				    width: 38px;
+				    text-align: center;
+				    color: #666;
+				    margin: 0;
+				    padding: 0 2px;
+				    background: #fff;
+				    outline: none;
+				    float: left;
+			}
+			.main-botton{
+				margin: auto;
+				margin-top: 20px;
+			}
+			.main-botton1{
+				width: 1201px;
+			    border: 1px solid #e8e8e8;
+			    background-color: #e8e8e8;
+			    min-height: 45px;
+			    clear: both;
+			}
+			.left{
+				float: left;
+				width: 300px;
+				margin: 12px 0 0 20px;
+			}
+			.right{
+				float: right;
+				text-align: right;
+			}
+			.right div{
+				display: inline-block;
+			}
+			.right1{
+				margin-right: 10px;
+				margin-top:8px ;
+			}
+			.jiesuan{
+				width: auto;
+   				padding: 0px 25px;
+			    background: #cc0000;
+			    text-align: center;
+			    border: none;
+			    font-family: Microsoft Yahei;
+			    color: #fff;
+			    border-radius: 2px;
+			    cursor: pointer;
+			    line-height: 45px;
+			    height: 45px;
+			    font-size: 18px;
+			    outline: none;
+			}
+			
+			#foot{
+				clear: both;
+				width: 100%;
+				margin-top:20px ;
+			}
+			#foot ul{
+				width: 960px;
+				min-height: 150px;
+				border-top:1px solid #e2e2e2;
+				padding: 0 90px 0 150px;
+				margin: auto;
+			}
+			#foot li{
+				width: 135px;
+				float: left;
+				line-height: 26px;
+			}
+			#foot dt{
+				height: 35px;
+			    line-height: 35px;
+			    font-family: Microsoft Yahei, Arial;
+			    font-size: 14px;
+			    font-weight: bold;
+			}
+			#foot dd{
+				font-size: 12px;
+			}
+			.price0,.price1{
+				outline: none;
+				width: 50px;
+				height: 20px;
+				border: none;
+			}
